@@ -65,7 +65,7 @@ body{
 
 .navbar__s3__title a:hover{ 
     transition: 1s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    text-shadow: 1px 1px 5px gray;
 }
 
 .navbar__s3__icons{
