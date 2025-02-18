@@ -147,6 +147,7 @@ body{
 
 .sale-image img{
     width: 100%;
+    object-fit: cover;
 }
 
 .sale-image__offer{
@@ -155,8 +156,9 @@ body{
     background-color: white;
     padding: 2%;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 10%;
+    transform: translate(-50%, -50%);
     animation-name: zoom;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -194,6 +196,7 @@ body{
     flex-grow: 1;
     padding: 5px;
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+    height: fit-content;
 }
 
 .course-card:hover{
@@ -257,6 +260,7 @@ body{
 
 .footer__one__s1 p, .footer__one__s2 p{
     margin: 5px;
+    cursor: pointer;
 }
 
 .footer__two{
@@ -264,6 +268,12 @@ body{
     justify-content: space-between;
     margin-top: 30px;
     align-items: center;
+}
+
+.footer__two h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
   
 /* Responsive designs */
